@@ -16,7 +16,7 @@ Drag and drop file upload is also supported in the textareas of the wiki. This a
 
 ## Running The Wiki
 
-The wiki can be ran on any server with relative ease. It can be started from the command line with the `gollum` command, however due to the customizations included in the fork, it's recommende you use a `config.ru` file and the `rackup` command.
+The wiki can run on any server with relative ease. It can be started from the command line with the `gollum` command, however due to the customizations included in the fork, it's recommended you use a `config.ru` file with the `rackup` command.
 
 **Note:** You can pass the `-p` flag to change the port rackup uses
 
