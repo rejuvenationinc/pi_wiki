@@ -4,19 +4,17 @@ View the [Original Gollum Readme Here](http://www.github.com/gollum/gollum)
 
 The Rejuvenation PI Wiki is a slightly customized Gollum Wiki.
 
-Here is a list of features found in the Rejuvneation Fork
-
 ### User Authentication
 
 The fork of gollum has a simple authentication platform built in. The system reads lines from a TXT file containing user names, and matches them all to the same password. This means that every user has the same password, however if no user is found they will not be logged in.
 
 ### Text Area file upload
 
-Drag and drop file upload is also supported in the textareas of the wiki. This allows users to upload PDFs or product images with ease.
+Drag and drop file upload is also supported in the textareas of the wiki. This allows users to easily upload PDFs or product images.
 
 ## Running The Wiki
 
-The wiki can be ran on any server with relative ease. It can be started from the command line with the `gollum` command, however due to the customizations included in the fork, it's recommende you use a `config.ru` file and the `rackup` command.
+The wiki can run on any server with relative ease. It can be started from the command line with the `gollum` command, however due to the customizations included in the fork, it's recommended you use a `config.ru` file and the `rackup` command.
 
 **Note:** You can pass the `-p` flag to change the port rackup uses
 
@@ -60,7 +58,7 @@ To update the wiki gem on the server follow these steps
   - CD into the repo's directory
   - Run `rake build` - This will build the source into a gemfile
   - Run `gem uninstall gollum` to uninstall the current version
-  - Run 'gem install pkg/gollum.....gem` Note: The verison may change, but you should be able to tab complete after gollum to install
+  - Run `gem install pkg/gollum.....gem` Note: The verison may change, but you should be able to tab complete after gollum to install
 
 If the server is running gollum in a screen session run these commands:
   - `screen -r`
