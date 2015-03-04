@@ -46,7 +46,7 @@ This file will load up your users.txt file, set the password for your environmen
 Currently the wiki is running in a screen session with NGINX looking at port 4567, so to start it up follow these steps
 
   - `screen`
-  - `rackup -p 4567`
+  - `rackup -p 4567 -o 10.0.0.10`
   - control a+d
 
 ## Updating the Wiki
@@ -63,4 +63,4 @@ To update the wiki gem on the server follow these steps
 If the server is running gollum in a screen session run these commands:
   - `screen -r`
   - control+c
-  - `rackup -p 4567`
+  - `rackup -p 4567 -o server.local`
